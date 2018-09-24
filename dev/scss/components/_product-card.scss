@@ -1,0 +1,11 @@
+.image-container{
+    .product-image-2{
+        display: none;
+    }
+    &:hover .product-image-1{
+        display: none;
+    }
+    &:hover .product-image-2{
+        display: inherit;
+    }
+}

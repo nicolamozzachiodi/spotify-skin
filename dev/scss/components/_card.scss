@@ -1,0 +1,15 @@
+.card-description{
+    text-align: center;
+    margin: 20px 0;
+}
+.card-image-container:hover{
+    & .card-image-2{
+        display: block;
+    } 
+    & .card-image-1{
+        display: none;
+    }
+}
+.card-image-2{
+    display: none;
+}

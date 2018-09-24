@@ -1,0 +1,33 @@
+footer{
+    background-color: blue;
+    color: $white;
+    padding: 50px 0;
+    h6{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .social-icon{
+        background-color: #222326;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .twitter-icon{
+        background-image: url(../media/icons/twitter-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .instagram-icon{
+        background-image: url(../media/icons/instagram-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .facebook-icon{
+        background-image: url(../media/icons/facebook-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
